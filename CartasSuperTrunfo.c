@@ -25,25 +25,25 @@ int main() {
 
     // Entrada de dados da Carta 1
     printf("=== Cadastro da Carta 1 ===\n");
-    printf("Estado (ex: RJ): ");
+    printf("Estado: SP");
     scanf("%s", estado1);
 
-    printf("Código (ex: 0021): ");
+    printf("Código: 13): ");
     scanf("%s", codigo1);
 
-    printf("Nome da cidade: ");
+    printf("Nome da cidade: Santos");
     scanf(" %[^\n]", cidade1);
 
-    printf("População: ");
+    printf("População: 418.608 habitantes");
     scanf("%d", &populacao1);
 
-    printf("Área (em km²): ");
+    printf("Área (em km²): 281,033");
     scanf("%f", &area1);
 
-    printf("PIB (em bilhões de reais): ");
+    printf("PIB (em bilhões de reais):R$ 24.090.173.000 ");
     scanf("%f", &pib1);
 
-    printf("Número de pontos turísticos: ");
+    printf("Número de pontos turísticos: 50 ");
     scanf("%d", &pontos1);
 
     // Cálculos da Carta 1
@@ -52,25 +52,25 @@ int main() {
 
     // Entrada de dados da Carta 2
     printf("\n=== Cadastro da Carta 2 ===\n");
-    printf("Estado (ex: SP): ");
+    printf("Estado: MS");
     scanf("%s", estado2);
 
-    printf("Código (ex: 0011): ");
+    printf("Código: 67 ");
     scanf("%s", codigo2);
 
-    printf("Nome da cidade: ");
+    printf("Nome da cidade: Paranaíba ");
     scanf(" %[^\n]", cidade2);
 
-    printf("População: ");
+    printf("População: 42.276 habitantes");
     scanf("%d", &populacao2);
 
-    printf("Área (em km²): ");
+    printf("Área (em km²): 11.333,58 ");
     scanf("%f", &area2);
 
-    printf("PIB (em bilhões de reais): ");
+    printf("PIB (em bilhões de reais): R$ 1.401.774,48 ");
     scanf("%f", &pib2);
 
-    printf("Número de pontos turísticos: ");
+    printf("Número de pontos turísticos: 4");
     scanf("%d", &pontos2);
 
     // Cálculos da Carta 2
